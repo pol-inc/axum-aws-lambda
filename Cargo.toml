@@ -14,7 +14,7 @@ keywords = ["axum", "lambda", "tower", "aws"]
 
 [dependencies]
 axum = "0.7"
-lambda_http = {version = "0.11", git = "https://github.com/awslabs/aws-lambda-rust-runtime.git", rev = "5b1de1dc9331cb91907362598e67bcc3b00fadc4" }
+lambda_http = "*"
 hyper = "1.0"
 bytes = "1.5"
 http = "1"
